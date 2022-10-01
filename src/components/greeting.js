@@ -8,7 +8,6 @@ const Greeting = () => {
 
   useEffect(() => {
     dispatch(fetchGreeting());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return message.greeting ? <h2>{message.greeting}</h2> : null;
