@@ -1,19 +1,12 @@
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
-import Greeting from './components/greeting';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Greeting from './components/Greeting';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <nav>
-        <Link to="/" />
-      </nav>
-      <Routes>
-        <Route path="/" element={<Greeting />} />
-      </Routes>
-
-    </div>
+    <Routes>
+      <Route path="/" element={<Greeting />} />
+    </Routes>
   );
 }
-export default App;
