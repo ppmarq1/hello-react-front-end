@@ -4,17 +4,39 @@
 
 This project is a React front-end connected with Rails back-end, to display a random message.
 
-## Getting Started
-To get a local copy up and running follow these simple example steps.
+# Setup
 
-- Copy this link `https://github.com/ppmarq1/hello-react-front-end.git'.
-- Get the directory that you want to clone the repository.
-- Open the command prompt in this directory.
-- Write `https://github.com/ppmarq1/hello-react-front-end.git`.
+- git clone https://github.com/ppmarq1/hello-react-front-end.git
 
+### Prerequisites
 
-- Follow these steps to run the app:
-  - run `gem install`, then run `rails s`
+- Have a working and updated browser.
+- Have a local version control like **git** install on your computer.
+- Have an account and sign in on GitHub, as online/remote version control system.
+- Download waves to check project accessibilty.
+
+### Install
+
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+
+### Create React App
+
+- npx create-react-app my-app
+- cd my-app
+- npm run start
+
+### Run tests
+
+- **npx hint .** : To test html codes
+- **npx stylelint "**/\*.{css,scss}"\*\* : To test css code
+- **npx eslint .** : To test Eslint Report
+- **npm run test** : To run the tests.
 
 
 ## Authors
